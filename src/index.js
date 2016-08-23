@@ -6,11 +6,11 @@
  */
 function buildConditions(context) {
     let conditions = {};
-    if(context.params) {
-        conditions = context.params;
-    }
-    else if(context.request.query.conditions) {
+    if(context.request.query.conditions) {
         conditions = JSON.parse(context.request.query.conditions);
+    }
+    else if(context.params) {
+        conditions = context.params;
     }
     return conditions;
 }
