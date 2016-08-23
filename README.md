@@ -54,7 +54,7 @@ Endpoints
 
 Conditions
 
-`/api/user?conditions={"email":"mrrobot@gmail.com","name":"Elliot Alderson"}`
+`/api/user?conditions={"email":"mrrobot@fsociety.com","name":"Elliot Alderson"}`
 
 Limit
 
