@@ -19,7 +19,7 @@ function buildConditions(context) {
  * Builds mongoose options
  *
  */
-function getOptions(parameters, object) {
+function buildOptions(parameters, object) {
     let filtered = Object.keys(object).filter((key) => parameters.indexOf(key) !== -1);
     let result = filtered.reduce((previous, current) => {
         try {
