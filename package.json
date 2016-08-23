@@ -1,6 +1,6 @@
 {
   "name": "koa-mongoose-rest",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Turns Mongoose models into a Rest API for Koa",
   "main": "./src/index.js",
   "scripts": {

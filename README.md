@@ -101,3 +101,9 @@ Endpoints
 `/api/user`
 
 `/api/user/:id`
+
+## TODO
+
+- Add tests
+- Complete README
+- Add optional redis cacheing
