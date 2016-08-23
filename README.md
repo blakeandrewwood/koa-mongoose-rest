@@ -31,7 +31,7 @@ const routerApi = require('koa-mongoose-rest');
 // Create Moongoose Schema
 let schema = new mongoose.Schema({
   email: String,
-	name: String,
+  name: String,
   password: String,
   created_at: Date
 });
