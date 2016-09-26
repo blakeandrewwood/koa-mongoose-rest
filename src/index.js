@@ -74,7 +74,7 @@ function routerApi(router, model, prefix, paramId) {
     // Delete
     function * del() {
         let conditions = buildConditions(this);
-        this.body = yield model.remove(conditions, this.request.body);
+        this.body = yield model.remove(conditions);
     }
     router.del(urlParam, del);
     router.del(url, del);
